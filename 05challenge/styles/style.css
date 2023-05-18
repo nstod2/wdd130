@@ -1,0 +1,19 @@
+#pic-box {
+    background-color: rgb(88, 86, 86);
+    width: 80%;
+    margin: 0px;
+}
+
+#title {
+    background-color: rgb(88, 86, 86);
+    border: 0px;
+    width: 100%;
+    margin: 0px;
+}
+
+.icon {
+    width: 200px;
+    border: 10px solid rgb(51, 49, 49);
+    border-radius: 50%;
+    margin: 50px 130px 50px 130px;
+}

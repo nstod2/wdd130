@@ -1,3 +1,7 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +11,15 @@ nav a {
     text-align: center;
     color: #3D2100;
     text-decoration: none;
+    padding: 35px;
+}
+
+body {
+    font-size: 22px;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #7ee7e4;
+    margin: 0;
+    padding: 0;
 }
 
 #hero-msg h1 {
@@ -21,6 +34,10 @@ nav a {
     text-align: center;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 main section {
     text-align: center;
 }
@@ -29,8 +46,8 @@ main section {
     height: 725px;
 }
 
-body {
-    background-color: #7ee7e4;
+h2 {
+    margin: 0;
 }
 
 header {
@@ -46,12 +63,20 @@ nav a:hover {
     background-color: #3D2100;
     color: #ecbb09;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join {
-    background-color: #3D2100;
-    color:#ecbb09;
+    background-color: #1eaeaa;
+    color: #ecbb09;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -66,18 +91,27 @@ nav a:hover {
 
 #background {
     background-color: #1eaeaa;
+    margin-bottom: 75px;
 }
 .msg {
     background-color: #3D2100;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
 }
 
 footer {
     background-color: #e6cc70;
     color: #3D2100;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
+    font-size: 2em;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     color: #3D2100;
+    margin-top: 10px;
 }
 
 h4 {
@@ -85,11 +119,14 @@ h4 {
 }
 
 .msg h2 {
-    color: #1eaeaa;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    color: #cc7a00;
 }
 
 .msg p {
     color: #1eaeaa;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -107,6 +144,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -115,8 +153,33 @@ footer a:hover {
 
 footer p {
     font-size: 1.2em;
+
 }
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #3D2100;
+}
+
+main section img {
+    box-sizing: border-box;
 }
