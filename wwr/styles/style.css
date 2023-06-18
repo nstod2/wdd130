@@ -64,7 +64,7 @@ main section {
 }
 
 #river-title {
-    grid-column: 4/8;
+    grid-column: 3/9;
     grid-row: 1/2;
     justify-self: center;
     z-index: 3;
@@ -91,25 +91,27 @@ main section {
 }
 
 .salmon-river {
-    margin: 200px 0;
-    grid-column: 2/4;
-    grid-row: 1/2;
-    z-index: 2;
-}
-.gray-canyon {
-    margin: 200px 0;
+    margin: 225px 0;
     grid-column: 5/7;
     grid-row: 1/2;
     z-index: 2;
-    
+
+}
+.gray-canyon {
+    margin: 250px 0;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    z-index: 2;
+    width: 400px;
  }
 
 
 .grand-canyon {
-    margin: 200px 0;
+    margin: 250px 0;
     grid-column: 8/10;
     grid-row: 1/2;
     z-index: 2;
+    width: 400px;
  }
 
 .rivers-img {
