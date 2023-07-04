@@ -58,6 +58,7 @@ body {
 .passion-calm p {
     padding: 0px;
     margin: 10px;
+    text-indent: 25px;
 }
 
 .passion-calm h4 {
@@ -93,6 +94,7 @@ body {
 .personal-box p {
     margin: 10px;
     padding-left: 30px;
+    text-indent: 25px;
 }
 
 .personal-box h4 {
@@ -105,7 +107,7 @@ body {
     width: 360px;
     grid-column: 1/4;
     grid-row: 7/13;
-    margin-left: 15px;
+    margin-left: 5px;
     margin-top: 60px;
     z-index: 1;
     border: 5px solid white;
