@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap|Lato');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: #f851ad;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header {
+    background-color: black;
+}
+
+.logo {
+    display:block;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+body {
+    font-size: 22px;
+    font-family: 'Lato', Arial, sans-serif;
+    background-color: #a5a5a5;
+    margin: 0px;
+    padding: 0px;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: repeat(10, 160px);
+    grid-template-rows: repeat(12, 100px);
+}
+.passion-calm {
+    grid-column: 1/6;
+    grid-row: 1/6;
+    padding-left: 50px;
+    padding-top: 45px;
+}
+
+.passion-calm p {
+    padding: 0px;
+    margin: 10px;
+}
+
+.passion-calm h4 {
+    color: #f851ad;
+    margin: 0px;
+    padding: 0px;
+}
+
+.house-img {
+    width: 700px;
+    grid-column: 6/11;
+    grid-row: 2/6;
+    margin-left: 45px;
+    margin-top: 45px;
+    z-index: 1;
+    border: 5px solid white;
+}
+
+.personal-box {
+    background-color: black;
+    padding: 35px;
+    width: 800px;
+    color: #f851ad;
+    grid-column: 3/11;
+    grid-row: 6/10;
+    padding-left: 125px;
+    padding-top: 50px;
+    padding-right: 75px;
+    border: 5px solid white;
+}
+
+.personal-box p {
+    margin: 10px;
+    padding: 0px;
+}
+
+.personal-box h4 {
+    padding: 25px;
+    margin: 0px;
+}
+
+.supplies-img {
+    width: 360px;
+    grid-column: 1/4;
+    grid-row: 7/13;
+    margin-left: 30px;
+    margin-top: 50px;
+    z-index: 1;
+    border: 5px solid white;
+}
+
+h4 {
+    font-family: 'Marck Script', cursive;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+footer {
+    background-color: #f1bcd9;
+    color: #f851ad;
+    padding: 50px 50px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f851ad;
+}
+
+footer a:hover {
+    color: white;
+}
+
+nav a:hover {
+    background-color: #f1bcd9;
+    color: #f851ad;
+}
