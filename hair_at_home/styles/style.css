@@ -388,10 +388,19 @@ nav a:hover {
         padding: 15px;
     }
     
-    .img1, .img2, .img3, .img4, .img5, .img6{ 
+    .img1, .img2, .img3, .img4, .img5, .img6 { 
         margin: 50px auto;
         width: 60%;
     }
+
+    .travel {
+        padding-right: 25px;
+    }
+
+    .gallery-box {
+        display: none;
+    }
+
     .updo, .straight {
         display: none;
     }
