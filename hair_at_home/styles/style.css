@@ -374,3 +374,31 @@ nav a:hover {
     border: 5px solid black;
     margin-left: 25px;
 }
+
+@media screen and (max-width: 900px) {
+    .home, .services, .stylist {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    
+    .img1, .img2, .img3, .img4, .img5, img6{ 
+        margin: 50px auto;
+        width: 60%;
+    }
+    .updo, .straight {
+        display: none;
+    }
+    .house-img, .supplies-img, .richelle-img, .mountain-img {
+        display: none;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
