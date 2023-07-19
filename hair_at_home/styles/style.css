@@ -407,6 +407,12 @@ nav a:hover {
     .house-img, .supplies-img, .richelle-img, .mountain-img {
         display: none;
     }
+
+    .stylist-box, .info, .personal-box {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
     footer {
         margin-top: 25px;
     }
